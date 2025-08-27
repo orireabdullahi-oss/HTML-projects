@@ -1,0 +1,190 @@
+* {
+  background-color: black;
+  color: beige;
+}
+
+button {
+  background-color: #deab5f;
+  color: #312e2e;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+ul > li {
+  list-style: none;
+  font-size: large;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+li a:hover {
+  border-bottom: 2px solid #deab5f;
+  color: #deab5f;
+}
+
+link:hover {
+  color: brown;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5rem;
+}
+
+header > h1 {
+  font-size: 3.5rem;
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+  margin: 3rem;
+}
+
+.section-one {
+  display: flex;
+  justify-content: space-around;
+}
+
+.right {
+  display: flex;
+  margin-right: 4rem;
+  align-items: center;
+}
+
+.border {
+  border-top: 3px solid whitesmoke;
+  width: 110px;
+  height: 120px;
+  margin-right: 2rem;
+}
+
+.p-one {
+  width: 500px;
+  font-size: large;
+}
+
+.our-story {
+  font-size: 3rem;
+}
+
+.img-two {
+  width: 400px;
+  height: 400px;
+}
+
+.section-two {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.div-right {
+  margin-right: 3rem;
+}
+
+.h1-left {
+  font-size: 3rem;
+  width: 400px;
+}
+
+.p-two {
+  font-size: larger;
+}
+
+.product {
+  font-size: 4rem;
+}
+
+.main {
+  border: 2px solid #deab5f;
+  width: 320px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-three {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8rem;
+}
+
+/* .imgg {
+  margin-bottom: 20rem;
+} */
+
+/* .img-one {
+  width: 70px;
+  height: 70px;
+} */
+
+.footerline {
+  width: 500px;
+  border: 1px solid #deab5f;
+  margin-left: 550px;
+}
+
+.footer {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-right: 20rem;
+  margin-left: 20rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.footerdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.footerdiv > h1 {
+  font-size: 2.3rem;
+  width: 200px;
+}
+
+.footerdiv > p {
+  font-size: 1.2rem;
+  width: 300px;
+}
+
+span {
+  color: #deab5f;
+}
+
+h4 {
+  margin-left: 600px;
+}

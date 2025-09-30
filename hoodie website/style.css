@@ -1,0 +1,229 @@
+/* Playfair Display */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
+
+/* Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #239b7e;
+  --main-font: "Playfair Display SC", serif;
+  --primary-font: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 8rem;
+}
+
+.logo {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.burger div {
+  height: auto;
+  width: 45px;
+  border: 1.8px solid var(--main-color);
+}
+
+.section-one {
+  margin-top: 15rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img-one {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.193);
+}
+
+.left h1 {
+  color: grey;
+  font-family: var(--main-font);
+  font-size: 4rem;
+}
+
+.span {
+  color: black;
+}
+
+.p1 {
+  width: 500px;
+  color: grey;
+  margin-top: 2rem;
+}
+.buttons {
+  margin-top: 1.5rem;
+}
+
+.buttons button {
+  padding: 0.8rem 1.5rem;
+  border-radius: 1px;
+}
+
+.btn1 {
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: white;
+  border: 1px solid var(--main-color);
+}
+
+.btn1:hover {
+  background-color: white;
+  color: var(--main-color);
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.btn2 {
+  cursor: pointer;
+  background-color: white;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
+.btn2:hover {
+  background-color: var(--main-color);
+  color: white;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.img-two {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.193);
+}
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10rem;
+}
+
+.product-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+  margin-top: 2rem;
+}
+.product-btns button {
+  padding: 0.8rem 1.5rem;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.arrivals {
+  cursor: pointer;
+  background-color: white;
+  color: var(--main-color);
+  border: 2px solid var(--main-color);
+}
+
+.arrivals:hover {
+  background-color: var(--main-color);
+  color: white;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.other {
+  cursor: pointer;
+  background-color: white;
+  color: rgba(128, 128, 128, 0.465);
+  border: 2px solid rgba(128, 128, 128, 0.307);
+}
+
+.products {
+  width: 600px;
+  margin-top: 5rem;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 250px;
+  margin-bottom: 5rem;
+}
+
+.img-div {
+  background-color: #ebf1f0;
+  margin-bottom: 1rem;
+}
+
+.img-product {
+  width: 200px;
+  padding: 2rem;
+  margin-left: 1.5rem;
+}
+
+.prod-paragraph {
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.prod-pargraph2 {
+  color: grey;
+  margin-bottom: 5px;
+}
+
+a {
+  color: var(--main-color);
+  margin-top: 2rem;
+}
+
+.feedbacks {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.feedbacks h1 {
+  display: flex;
+  justify-content: center;
+}
+.remarks {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: space-around;
+}
+
+.footer {
+  margin-top: 3rem;
+  color: #ebf1f0;
+  background-color: black;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-around;
+  text-align: center;
+}
+
+.fut {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
